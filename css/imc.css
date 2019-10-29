@@ -1,0 +1,35 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+div {
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+}
+
+.titulo {
+  float: left;
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
+}
+.btn {
+  background-color: #428bca;
+  border: 1px solid black;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  width: 94%;
+}
+
+.centro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #dfe4ea;
+  border: 1px solid black;
+  border-radius: 8px;
+}

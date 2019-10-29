@@ -1,0 +1,106 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centro {
+  width: 100vw;
+  height: 85vh;
+  background: #6c7a89;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.centro1 {
+  background: #6c7a89;
+}
+.btn00,
+.btn01,
+.btn02,
+.btn03,
+.btn10,
+.btn11,
+.btn12,
+.btn13,
+.btn30,
+.btn31,
+.btn32,
+.btn33,
+.btn40,
+.btn41,
+.btn42,
+.btn43 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #1e272e;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 2px;
+}
+
+.btn00 {
+  background-color: #3498db;
+  color: white;
+}
+.btn01 {
+  background-color: #2980b9;
+  color: white;
+}
+.btn02 {
+  background-color: #2e86de;
+  color: white;
+}
+.btn03 {
+  background-color: #54a0ff;
+  color: white;
+}
+
+.btn10 {
+  background-color: #cd84f1;
+  color: white;
+}
+.btn11 {
+  background-color: #c56cf0;
+  color: white;
+}
+.btn12 {
+  background-color: #e056fd;
+  color: white;
+}
+.btn13 {
+  background-color: #be2edd;
+  color: white;
+}
+
+.btn30 {
+  background-color: #f6e58d;
+  color: black;
+}
+.btn31 {
+  background-color: #ffeaa7;
+  color: black;
+}
+.btn32 {
+  background-color: #fdcb6e;
+  color: black;
+}
+.btn33 {
+  background-color: #feca57;
+  color: black;
+}
+
+.btn40 {
+  background-color: #ffbe76;
+  color: black;
+}
+.btn41 {
+  background-color: #f8c291;
+  color: black;
+}
+.btn42 {
+  background-color: #f3a683;
+  color: black;
+}
+.btn43 {
+  background-color: #f19066;
+  color: black;
+}

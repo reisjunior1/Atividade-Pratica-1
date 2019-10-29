@@ -1,0 +1,41 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.centro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #dfe4ea;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+div {
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+}
+.calculo {
+  background-color: #f04040;
+  border: 1px solid black;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  width: 94%;
+}
+.titulo {
+  float: left;
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
+}
+.resultado {
+  width: 70%;
+  height: 100px;
+  margin-left: 40px;
+  visibility: hidden;
+  font-size: 16px;
+  text-align: justify;
+}

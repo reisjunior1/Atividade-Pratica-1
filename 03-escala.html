@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/escala.css" />
+    <title>Escala Richter</title>
+    <script src="js/calcularMagnitude.js"></script>
+  </head>
+  <body>
+    <form name="dados">
+      <div class="centro">
+        <div>
+          <label for="amplitude" class="titulo"
+            >Amplitude (em milímetros):
+          </label>
+          <input type="number" class="amplitude" id="amplitude" />
+        </div>
+        <div>
+          <label for="tempo" class="titulo"
+            >Intervalo de tempo (em segundos):</label
+          >
+          <input type="number" class="tempo" id="tempo" />
+        </div>
+        <div>
+          <input
+            type="button"
+            class="calculo"
+            id="calculo"
+            value="Calcular Magnitude"
+            onclick="calc()"
+          />
+        </div>
+        <div>
+          <textarea class="resultado" id="resultado" />></textarea>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

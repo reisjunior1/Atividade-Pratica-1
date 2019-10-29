@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/imc.css" />
+    <title>Calculo IMC</title>
+    <script src="js/calculo.js"></script>
+  </head>
+  <body>
+    <form name="dados">
+      <div class="centro">
+        <div>
+          <label for="peso" class="titulo">Peso (KG):</label>
+          <input
+            type="number"
+            id="peso"
+            class="peso"
+            name="peso"
+            placeholder="70,0"
+          />
+        </div>
+        <div>
+          <label for="altura" class="titulo">Altura (M):</label>
+          <input type="number" id="altura" class="altura" placeholder="1,70" />
+        </div>
+        <div>
+          <label for="res" class="titulo">Resultado:</label>
+          <input type="text" id="res" class="res" />
+        </div>
+        <div>
+          <label for="intervalo" class="titulo"
+            >Intervalo de Peso Saudável:</label
+          >
+          <input type="text" id="intervalo" class="intervalo" />
+        </div>
+        <div>
+          <input
+            type="button"
+            class="btn"
+            id="btn"
+            onclick="calcular();calculaIntervalo()"
+            value="Calcular"
+          />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
